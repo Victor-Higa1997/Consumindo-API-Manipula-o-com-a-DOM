@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.principal{
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+.container{
+    min-width: 550px;
+    min-height: 500px;
+    border: 7px solid rgb(212, 205, 205);
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.2rem;
+}
+img{
+    width: 550px;
+    height: 500px;   
+}
+
+#botao{
+    font-size: 1rem;
+    color: inherit;
+    border: 3px solid rgb(212, 205, 205);
+    margin-top: 4px;
+    border-radius: 0.2rem;
+    width: 10rem;
+    height: 3rem;
+    transition: width 0.1s, height 0.1s;
+    transition-timing-function: linear;
+}
+
+#botao:hover{
+    background-image: linear-gradient(to right, rgb(212, 205, 205),rgba(212, 205, 205, 0.658),rgba(212, 205, 205, 0.363), rgba(212, 205, 205, 0.082));
+    width: 10.2rem;
+    height: 3.2rem;
+    color: rgb(66, 66, 66);
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(212, 205, 205);
+    border-radius: 0.5rem;
+    width: 20rem;
+    height: 2.8rem;
+    text-align: center;
+    color: white;
+}
